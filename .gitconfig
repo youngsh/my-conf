@@ -1,0 +1,30 @@
+[user]
+    name = yangshaohua
+    email = yangshaohuasi1781@sogou-inc.com
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
+    df = diff
+[color]
+    ui = true
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red
+    new = cyan
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[push]
+    default = tracking
+[core]
+    pager = less -r
+    whitespace = cr-at-eol
+    autocrlf = false
